@@ -1,0 +1,36 @@
+.feedback {
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 65px;
+        margin-right: 120px;
+    }
+    &__list1 {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        :not(:last-child) {
+            margin-bottom: 24px;
+        }
+    }
+    &__list2 {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        :not(:last-child) {
+            margin-bottom: 24px;
+        }
+    }
+    &__item {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.57;
+        color: $main-color;
+    }
+    &__link {
+        transition: color 500ms linear;
+    
+        &:hover, &:focus {
+            color: $link-color;
+        }
+    }
+}

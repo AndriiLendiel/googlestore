@@ -1,0 +1,8 @@
+
+.flagman__item, .goods__item, .category__item, .benefits__item {
+    cursor: pointer;
+    transition: transform 250ms linear;
+    &:hover, &:focus {
+        transform: scale(1.025); 
+}
+}

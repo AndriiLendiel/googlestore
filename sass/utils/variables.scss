@@ -1,0 +1,54 @@
+$link-color: #1967D2;
+$main-color: #3C4043;
+$white:#ffffff;
+
+
+$main-distance: 24px;
+$radius: 28px;
+
+%section-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $main-color;
+}
+
+%thumb-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: (24 / 15);
+    letter-spacing: 0.1;
+    line-height: 1.5;
+    text-align: center;
+}
+
+%thumb-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+        text-align: center;
+}
+
+
+%button-style {
+    margin-left: auto;
+    margin-right: auto;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        color: $main-color;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 2px solid $main-color;;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+
+
