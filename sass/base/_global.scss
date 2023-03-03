@@ -36,11 +36,13 @@ a {
     }
 
     .container {
-//         width: 1200px;
+        // width: 1200px;
         width: 100%;
         margin-bottom: 80px;
-        margin-left: $main-distance;
-        margin-right: $main-distance;
+        padding-left: $main-distance;
+        padding-right: $main-distance;
+        margin-left: auto;
+        margin-right: auto;
 
     }
     .hidden {
