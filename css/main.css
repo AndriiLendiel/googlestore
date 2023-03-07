@@ -233,9 +233,10 @@ body {
   justify-content: space-around;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 24px;
-  align-items: center;
+  align-items: flex-start;
 }
 .flagman__item {
+  width: 100%;
   cursor: pointer;
   transition: transform 250ms linear;
 }
@@ -265,13 +266,15 @@ body {
   font-size: 12px;
   line-height: 1.5;
   color: #1967D2;
-  background-color: #8ab4f8;
-  border-radius: 40%;
   cursor: pointer;
   transition: border 250ms linear;
 }
 .thumb-sup:hover, .thumb-sup:focus {
   border: 2px solid #1967D2;
+}
+
+.flagman__item:last-child img {
+  max-height: 215px;
 }
 
 .colaboration__container {
